@@ -25,7 +25,6 @@ export function Projects() {
       ],
       image: "/Images/CEHRMS.png",
       github: "https://github.com/Rutupurna-S/CEHRMS",
-      live: "#",
     },
     {
       title: "Landing Page - Neutral Collection",
@@ -35,6 +34,7 @@ export function Projects() {
       tags: ["HTML", "CSS", "JavaScript", "Tailwind"],
       image: "/Images/NeutralLandingPage1.png",
       github: "https://github.com/Rutupurna-S/Landing-Page-Neutral-Collection",
+      live: "https://landing-page-neutral-collection.vercel.app/",
     },
     {
       title: "Registration Form - Responsive UI",
@@ -53,6 +53,7 @@ export function Projects() {
       tags: ["React", "Tailwind", "JavaScript", "CSS", "Game Logic"],
       image: "/Images/TicTacToe.png",
       github: "https://github.com/Rutupurna-S/TicTacToe",
+      live: "https://tic-tac-toe-lake-eight.vercel.app/",
     },
     {
       title: "Landing Page - Fashion Design",
@@ -62,6 +63,7 @@ export function Projects() {
       tags: ["HTML", "CSS", "JavaScript", "Responsive Design"],
       image: "/Images/ShoppingApp.png",
       github: "https://github.com/Rutupurna-S/Landing-Page",
+      live: "https://fashion-landing-page-rutu.vercel.app/",
     },
     {
       title: "Recipe Card - Frontend Design",
