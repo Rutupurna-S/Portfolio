@@ -1,8 +1,9 @@
 import { motion } from "motion/react";
 import { useInView } from "motion/react";
 import { useRef } from "react";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { ImageWithFallback } from "./fallback/ImageWithFallback";
+import { FiGithub } from "react-icons/fi";
 
 export function Projects() {
   const ref = useRef(null);
@@ -152,7 +153,7 @@ export function Projects() {
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 text-gray-400 hover:text-gray-300 transition-colors"
                     >
-                      <Github size={16} />
+                      <FiGithub size={16} />
                       <span>Code</span>
                     </a>
                   )}

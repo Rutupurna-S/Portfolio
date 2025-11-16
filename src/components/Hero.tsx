@@ -1,10 +1,13 @@
 import { motion } from "motion/react";
 import { ArrowDown } from "lucide-react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { ImageWithFallback } from "./fallback/ImageWithFallback";
 
 export function Hero() {
-  const roles = ["UI/UX Designer", "Web Developer", "Full Stack Developer"];
+  const roles = useMemo(
+    () => ["UI/UX Designer", "Web Developer", "Full Stack Developer"],
+    []
+  );
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
