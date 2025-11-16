@@ -128,7 +128,7 @@ export function Hero() {
               }}
             />
 
-            <div className="relative z-10 w-full h-full rounded-2xl overflow-hidden border-2 border-blue-500/30">
+            <div className="relative z-10 w-full h-full pt-10 rounded-2xl overflow-hidden border-2 border-blue-500/30">
               <ImageWithFallback
                 src="/Images/ProfileImage.jpg"
                 alt="Profile"
