@@ -44,6 +44,7 @@ export function Projects() {
       tags: ["HTML", "CSS", "JavaScript", "Tailwind"],
       image: "/Images/registrationForm.png",
       github: "https://github.com/Rutupurna-S/Registration-Form",
+      live: "https://registration-form-nine-woad.vercel.app/",
     },
     {
       title: "Tic Tac Toe - Web Game",
