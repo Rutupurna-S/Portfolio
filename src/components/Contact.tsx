@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import { Mail, X } from "lucide-react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiTwitter, FiGithub } from "react-icons/fi";
+import { SiLeetcode } from "react-icons/si";
 
 export function Contact() {
   const ref = useRef(null);
@@ -28,6 +29,11 @@ export function Contact() {
     },
     { icon: FiGithub, label: "GitHub", href: "https://github.com/Rutupurna-S" },
     { icon: FiTwitter, label: "Twitter", href: "https://x.com/rutupurna21" },
+    {
+      icon: SiLeetcode,
+      label: "LeetCode",
+      href: "https://leetcode.com/u/gdQNzr5ttN/",
+    },
   ];
 
   const handleSubmit = (e: React.FormEvent) => {
