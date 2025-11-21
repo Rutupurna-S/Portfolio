@@ -67,13 +67,14 @@ export function Projects() {
       live: "https://fashion-landing-page-rutu.vercel.app/",
     },
     {
-      title: "Recipe Card - Frontend Design",
+      title: "Fresh Brews - Frontend Design",
       category: "Web Development",
       description:
-        "Designed and developed a clean, responsive recipe card interface using HTML, CSS, and JavaScript with a focus on layout, styling, and usability.",
-      tags: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-      image: "/Images/RecipeCard.png",
-      github: "https://github.com/Rutupurna-S/Recipe-Card",
+        "Fresh Brews is a modern, responsive coffee shop website built using Next.js, Tailwind CSS, and React components.",
+      tags: ["Next.js", "Tailwind CSS", "TypeScript", "Responsive Design"],
+      image: "/Images/fresh-brews.png",
+      github: "https://github.com/Rutupurna-S/Coffee-Page",
+      live: "https://fresh-brews.netlify.app",
     },
   ];
 
