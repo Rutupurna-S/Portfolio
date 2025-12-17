@@ -9,7 +9,7 @@ export default function App() {
     <div className="min-h-screen bg-black">
       <Navigation />
 
-      <main className="pt-10">
+      <main className="pt-10 mt-16">
         <Hero />
 
         <div id="about">

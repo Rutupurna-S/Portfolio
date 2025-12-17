@@ -98,7 +98,7 @@ export function Hero() {
               Contact Me
             </button>
             <a
-              href="https://bit.ly/Rutupurna_resume"
+              href="https://drive.google.com/file/d/1nlpyHnCPeKm1KAXHS130Wi0jACnKxJbB/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-3 bg-gray-800 hover:bg-gray-700 text-white rounded-lg transition-colors inline-block"
