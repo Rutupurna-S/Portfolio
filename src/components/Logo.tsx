@@ -33,9 +33,6 @@ export function Logo({ variant = "horizontal", showIcon = true }: LogoProps) {
         <div className="text-white font-semibold tracking-wide text-sm">
           RUTUPURNA SWAIN
         </div>
-        <div className="text-gray-400 text-xs tracking-wider">
-          UI/UX DESIGNER
-        </div>
       </div>
     </div>
   );
